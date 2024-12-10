@@ -1,0 +1,82 @@
+.containter {
+    border: 2px solid red;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.box {
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(red , blue , green);
+}
+
+#circle {
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    padding: 20px;
+    background-image: linear-gradient(red , blue , green);
+    /* background-image: linear-gradient(rgb(208, 255, 0) rgb(0, 76, 255) rgb(193, 5, 250)); */
+    /* box-shadow: 10px 10px 10px black; */
+}
+
+#circle img {
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: blur(2px);
+    /* filter: brightness(3); */
+    /* filter: opacity(0.7); */
+    /* filter: grayscale(70%); */
+}
+
+div:hover {
+    box-shadow: 30px 30px 7px rgb(161, 159, 159);
+    transform: scale(0.5);
+}
+
+#side img {
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+/* Transition */
+
+.cont {
+    /* width: 200px;
+    height: 200px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    transition: background-color 4s ease-in,transform 3s ease;
+    font-size: 20px;
+}
+
+button:hover {
+    box-shadow: 30px 30px 7px rgb(161, 159, 159);
+    transform: scale(0.5);
+    color: rgb(32, 33, 34);
+    background-color: aqua;
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+}
