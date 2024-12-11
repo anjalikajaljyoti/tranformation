@@ -1,5 +1,6 @@
 .containter {
     border: 2px solid red;
+     width: 900px;
     height: 700px;
     display: flex;
     justify-content: space-around;
